@@ -1,4 +1,4 @@
-Problem2_solution - проект в VisualStudio
-Problem2_solution_MCU - проект в IAR
+Problem2_solution - РїСЂРѕРµРєС‚ РІ VisualStudio
+Problem2_solution_MCU - РїСЂРѕРµРєС‚ РІ IAR
 
-Доп. информация - см. Readme-файл master-ветки.
+Р”РѕРї. РёРЅС„РѕСЂРјР°С†РёСЏ - СЃРј. Readme-С„Р°Р№Р» master-РІРµС‚РєРё.
