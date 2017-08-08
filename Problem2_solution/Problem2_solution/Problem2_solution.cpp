@@ -6,18 +6,19 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	//  Two ways of endian type definition:
 	uint8_t machineEndianCode1 = GetMachineEndian_way1();
 	uint8_t machineEndianCode2 = GetMachineEndian_way2();
 
 	if (machineEndianCode1 != machineEndianCode2)
-	{
+	{//  Two results should be same
 		printf("Some error happened.");
 		getchar();
 		return 0;
 	}
 
 	switch (machineEndianCode1)
-	{
+	{//  Output result to console
 	case LITTLE_ENDIAN_CODE:
 		printf("Answer: Little Endian.");
 		getchar();
@@ -74,7 +75,7 @@ uint8_t GetMachineEndian_way2()
 	// |0x01|0x02|
 	// |****|****|
 
-	sNum = *(__int16 *)aBuf;		//  Convert aBuf to __int16
+	sNum = *(uint16_t *)aBuf;		//  Convert aBuf to uint16_t
 
 	if (sNum == 0x0102)
 	{//  The most significant byte is at the lowest address => big endian
