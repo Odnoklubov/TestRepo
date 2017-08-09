@@ -31,7 +31,7 @@ uint8_t ChangedWithoutOperators_Way1(uint8_t st)
 
 uint8_t ChangedWithoutOperators_Way2(uint8_t st)
 {
-	const char arr[8] = "\x1a\x41\xea\x1f\x19\x19\x19";					//  Change 'switch' to byte array
+	const char arr[8] = "\x1a\x41\xea\x1f\x19\x19\x19";					//  Change 'switch' to string
 	uint8_t result;
 
 	result = arr[st];
