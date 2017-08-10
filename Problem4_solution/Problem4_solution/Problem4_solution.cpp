@@ -14,6 +14,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	printf("\"%s\"\r\n\"%s\"", s1, s2);
 	getchar();
 
+	free(s1);
+	free(s2);
+
 	return 0;
 }
 
